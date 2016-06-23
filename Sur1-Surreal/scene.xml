@@ -2,12 +2,13 @@
 	<ver num="2401" baseTrk="V8-Uncertain" />
 	<car tires="0" />
 	<start pos="-266.681 -86.4864 36.409" rot="0.134034 0.0569446 0.368599 0.918124" />
+	<sound ambient="" reverbs="Forest" />
 	<sky material="sky/offworld_gen" rainName="Snow" rainEmit="31" rain2Name="SnowFine" rain2Emit="53" />
 	<fog color="0.523 0.463 0.840 0.362 0.000" color2="0.413 0.665 1.560 0.163 0.000" linStart="158.593" linEnd="879.062" />
 	<fogH color="0.101 0.151 0.472 0.125 1.000" height="70.51" dens="26.7698" linStart="0" linEnd="48.1807" />
 	<light pitch="14" yaw="27" ambient="0.198 0.742 0.592 26927985328128.000 0.000" diffuse="0.930 0.494 1.826 26927985328128.000 0.000" specular="0.698 0.589 2.000 0.163 0.000" />
 	<fluids>
-		<fluid name="water blue med" pos="294.348 24.5241 -113.232" rot="0 0 0" size="278.645 20 633.7" tile="0.01 0.01" />
+		<fluid name="water blue med" pos="294.348 24.5241 -113.232" rot="0 0 0" size="278.645 120 633.7" tile="0.01 0.01" />
 	</fluids>
 	<terrain size="513" triangle="1.80666" errNorm="8.99" specPow="2.90871">
 		<texture on="1" file="adesert_sand2_d.jpg" fnorm="desert_sand2_n.jpg" scale="10.4" surf="DesertBumpy" dust="0.5" dustS="1" mud="0.5" smoke="0" tclr="0.088 0.810 0.420 0.800 0.000" angMin="25.6579" angMax="46.9565" angSm="19.2602" hMin="-300" hMax="300" hSm="20" nOn="0" noise="0" n_1="0" n2="1">
@@ -22,10 +23,10 @@
 		<texture on="1" file="ground_crackedo_d.jpg" fnorm="ground_cracked_n.jpg" scale="15.5353" surf="DesertMud" dust="0" dustS="0" mud="0.1" smoke="0" tclr="0.091 0.440 0.250 0.600 0.000" angMin="50.241" angMax="89.8026" angSm="18.1188" hMin="-150" hMax="150" hSm="4.96807" nOn="0" triplanar="1" noise="0.031316" n_1="1" n2="0">
 			<noise frq0="35.7414" oct0="3" prs0="0.3" pow0="1.5" frq1="59.8052" oct1="3" prs1="0.4" pow1="1.2" />
 		</texture>
-		<texture on="0" file="ice_6.png" fnorm="ice_6_nh.png" scale="10.7591" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="42.5381" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="-0.228188" n_1="0" n2="0">
+		<texture on="0" file="" fnorm="" scale="10.7591" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="42.5381" angMax="90" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="-0.228188" n_1="0" n2="0">
 			<noise frq0="38.2" oct0="3" prs0="0.3" pow0="1.5" frq1="40.5" oct1="3" prs1="0.4" pow1="1.2" />
 		</texture>
-		<texture on="0" file="ice_7.png" fnorm="ice_7_nh.png" scale="21" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="15.5578" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
+		<texture on="0" file="" fnorm="" scale="21" surf="Default" dust="0" dustS="0.2" mud="1" smoke="0" tclr="0.167 1.000 0.200 1.000 0.000" angMin="0" angMax="15.5578" angSm="20" hMin="-300" hMax="300" hSm="20" nOn="0" noise="1" n_1="0" n2="0">
 			<noise frq0="42.2" oct0="3" prs0="0.3" pow0="1.5" frq1="43.5" oct1="3" prs1="0.4" pow1="1.2" />
 		</texture>
 		<texture road="1" surf="roadDesert" dust="0.4" dustS="0.9" mud="0" smoke="0" tclr="0.123 0.486 0.700 0.700 0.000" />
